@@ -1,0 +1,20 @@
+{
+  "run_list":[
+     "yum",
+     "yum::epel",
+     "yum::remi",
+     "yum-update",
+     "yum-groupinstall",
+     "disable-services",
+     "selinux",
+     "su",
+     "timezone",
+     "network",
+     "skeleton",
+     "ntp",
+     "logwatch",
+     "networking_basic",
+     "admin-tools",
+     "awscli"	
+  ]
+}

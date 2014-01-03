@@ -91,7 +91,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe "yum::epel"
     chef.add_recipe "yum::remi"
   #   chef.add_recipe "yum::repoforge"
-    chef.add_recipe "yum-update"
+  #   chef.add_recipe "yum-update"
     chef.add_recipe "yum-groupinstall"
     chef.add_recipe "disable-services"
     chef.add_recipe "selinux"

@@ -6,6 +6,11 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+# Package resource
+package "python-setuptools" do
+	action :install
+end
+
 easy_install_package "pip" do
   action :install 
 end

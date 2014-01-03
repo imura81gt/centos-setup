@@ -2,6 +2,7 @@ default['yum']['groups'] = [
   { :name     => "Additional Development" },
   { :name     => "Base" },
   { :name     => "Compatibility libraries" },
+  { :name     => "Development Libraries" },
   { :name     => "Development tools" },
   { :name     => "E-mail server" },
   { :name     => "Fonts" },
